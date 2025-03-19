@@ -22,5 +22,5 @@ def make_prediction(sepal_length, petal_width):
     prediction = model.predict(input_features)
     return prediction[0]
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
